@@ -9,6 +9,10 @@ services:
 
     environment:
       MYSQL_ROOT_PASSWORD: root
+<<<<<<< HEAD
       MYSQL_DATABASE: contadigital
+=======
+      MYSQL_DATABASE: transacao
+>>>>>>> dev
       MYSQL_USER: user
       MYSQL_PASSWORD: password
