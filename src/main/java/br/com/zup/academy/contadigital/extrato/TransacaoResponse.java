@@ -9,6 +9,9 @@ public class TransacaoResponse {
     private BigDecimal valor;
     private LocalDateTime data;
 
+    public TransacaoResponse() {
+    }
+
     public TransacaoResponse(Transacao transacao) {
         this.tipoOperacao = transacao.getTipoOperacao();
         this.tipoTransacao = transacao.getTipoTransacao();
